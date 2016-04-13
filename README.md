@@ -22,13 +22,12 @@ The number of freed person.
 Example:
 Starting from the **first** person, the **second** will be **killed**, then the **forth**, then the **sixth**...
 
-
 Implementation:
-
+```C
 #include <stdio.h>
-
 int Q[100];
 int Head, Tail, Number_of_Items = 0;
+
 //Head is to record the first one
 //Tail is to record the last one
 //Number_of_Items is to recode the real-time amount of people
@@ -45,7 +44,6 @@ void Enqueue(int x){
     Number_of_Items ++;
 }
 
-
 int Dequeue(void){
     int z;
     z  =  Q[Head];
@@ -54,26 +52,27 @@ int Dequeue(void){
     
     return z;
 }
-//return
+
 
 int main(int argc, const char * argv[]) {
     int n, answer, i, j;
-    printf("Enter a number (1--99): ");
+    printf("Enter a number (1-99): ");
     scanf("%d",&n);
+    
     //step 1: Put all the numbers between 1-n into Queue
     for(i = 1; i<= n; i++)
         Enqueue(i);
+    
     //step 2: Start killing for n-1 rounds
     for(i = 1; i<= n-1; i++){
         j = Dequeue();
         Dequeue();
         Enqueue(j);
     }
-        
     
     answer = Q[Head];
-    
     printf("The value of J(%d) is: %d\n", n, answer);
     
     return 0;
 }
+```
