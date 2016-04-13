@@ -10,17 +10,21 @@ The procedure is repeated with the remaining people, starting with the next pers
 The problem given the number of people, starting point, direction, and number to be skipped is to choose the position in the initial circle to avoid execution.
 In the following, **n** denotes the number of people in the initial circle, and **k** denotes the count for each step, that is, **k-1** people are skipped and the **k-th** is executed. The people in the circle are numbered from **1** to **n**.
 
+
 ####Input:
 Let **n** be a variable.
 **k=2**, which means every **2nd** person will be killed.
 From the **1st** person, in the direction of **ascending number**.
 
+
 ####Output:
 The number of freed person.
+
 
 ####Example:
 Starting from the **first** person, the **second** will be **killed**, then the **forth**, then the **sixth**...
 ![diagram](http://i.v2ex.co/Pg57IJQ4l.png)
+
 
 ####Implementation:
 ```C
