@@ -1,6 +1,6 @@
 # heap-of-problems
 ####This repo is to note down some problems and implementations in C, namely learning notes.
-####And I note the first problem here.
+####And I noted the first problem here.
 
 ####Use Circular Queue to solve Josephus problem.
 
