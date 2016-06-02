@@ -1,4 +1,4 @@
-# heap-of-problems
+# Heap of Problems
 ####This repo is to note down some problems and implementations in C, namely learning notes.
 ####And I noted the first problem here.
 
