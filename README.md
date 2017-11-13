@@ -1,32 +1,31 @@
 # Heap of Problems
-####This repo is to note down some problems and implementations in C, namely learning notes.
-####And I noted the first problem here.
+## This repo is to note down some problems (especially algorithm related) and implementations in C/C++, namely learning notes.
+## And I noted the first problem here.
 
-####Use Circular Queue to solve Josephus problem.
+## Use Circular Queue to solve Josephus problem.
 
-####Problem:
+## Problem:
 People are standing in a circle waiting to be executed. Counting begins at a specified point in the circle and proceeds around the circle in a specified direction. After a specified number of people are skipped, the next person is executed. 
 The procedure is repeated with the remaining people, starting with the next person, going in the same direction and skipping the same number of people, until only one person remains, and is freed. 
 The problem given the number of people, starting point, direction, and number to be skipped is to choose the position in the initial circle to avoid execution.
 In the following, **n** denotes the number of people in the initial circle, and **k** denotes the count for each step, that is, **k-1** people are skipped and the **k-th** is executed. The people in the circle are numbered from **1** to **n**.
 
 
-####Input:
+## Input:
 Let **n** be a variable.
 **k=2**, which means every **2nd** person will be killed.
 From the **1st** person, in the direction of **ascending number**.
 
 
-####Output:
+## Output:
 The number of freed person.
 
-
-####Example:
+## Example:
 Starting from the **first** person, the **second** will be **killed**, then the **forth**, then the **sixth**...
 ![diagram](http://i.v2ex.co/Pg57IJQ4l.png)
 
 
-####Implementation:
+## Implementation:
 ```C
 #include <stdio.h>
 int Q[100];
