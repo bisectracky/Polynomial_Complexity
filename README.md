@@ -1,5 +1,5 @@
 # Heap of Problems
-### This repository is to note down some problems (especially algorithm related) and implementations in C/C++, say, learning notes. And I noted the first problem here. Use Circular Queue to solve Josephus problem.
+### This repository is to note down some problems (especially algorithm related) and implementations in C/C++, say, learning notes. And I noted down the first problem here. Use Circular Queue to solve Josephus problem.
 
 ## Problem:
 People are standing in a circle waiting to be executed. Counting begins at a specified point in the circle and proceeds around the circle in a specified direction. After a specified number of people are skipped, the next person is executed. 
