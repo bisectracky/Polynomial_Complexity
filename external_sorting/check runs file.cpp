@@ -21,7 +21,7 @@ int main(){
 	}
 	cout<<"the number of the runs is "<<num<<endl;
 	for(int i=1;i<num+1;i++){
-		cout<<"the length of the "<<i<<"th run£º"<<endl;
+		cout<<"the length of the "<<i<<"th runÂ£Âº"<<endl;
 		for(int j=0;j<length[i-1];j++){
 			f.read((char*)(&id),4);
 			f.read((char*)(&key),4);
