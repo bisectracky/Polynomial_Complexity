@@ -1,0 +1,58 @@
+In this test, N= 10, SIZE= 512
+The number of runs is 6
+the length of the 1th run is：7032
+the length of the 2th run is：8049
+the length of the 3th run is：8139
+the length of the 4th run is：8216
+the length of the 5th run is：7732
+the length of the 6th run is：1792
+The time taken to do the replacement selection is 0.124s
+the number of pass is 1
+in the 1th pass, it merges 6 runs
+The time taken to do the multi-way merge is 0.046s
+
+In this test, N= 20, SIZE= 512
+The number of runs is 11
+the length of the 1th run is：7052
+the length of the 2th run is：7989
+the length of the 3th run is：8221
+the length of the 4th run is：8196
+the length of the 5th run is：8173
+the length of the 6th run is：8224
+the length of the 7th run is：8258
+the length of the 8th run is：8142
+the length of the 9th run is：8161
+the length of the 10th run is：7739
+the length of the 11th run is：1765
+The time taken to do the replacement selection is 0.156s
+the number of pass is 3
+in the 1th pass, it merges 8 runs
+in the 2th pass, it merges 3 runs
+in the 3th pass, it merges 2 runs
+The time taken to do the multi-way merge is 0.167s
+
+In this test, N= 30, SIZE= 512
+The number of runs is 16
+the length of the 1th run is：6964
+the length of the 2th run is：7961
+the length of the 3th run is：8148
+the length of the 4th run is：8126
+the length of the 5th run is：8127
+the length of the 6th run is：8048
+the length of the 7th run is：8243
+the length of the 8th run is：8306
+the length of the 9th run is：8217
+the length of the 10th run is：8098
+the length of the 11th run is：8229
+the length of the 12th run is：8084
+the length of the 13th run is：8182
+the length of the 14th run is：8258
+the length of the 15th run is：7816
+the length of the 16th run is：2073
+The time taken to do the replacement selection is 0.201s
+the number of pass is 3
+in the 1th pass, it merges 8 runs
+in the 2th pass, it merges 8 runs
+in the 3th pass, it merges 2 runs
+The time taken to do the multi-way merge is 0.281s
+
