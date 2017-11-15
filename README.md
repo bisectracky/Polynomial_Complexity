@@ -1,4 +1,4 @@
-# Heap of Problems
+# polynomial_complexity
 ### This repository is to note down some problems (especially algorithm related) and implementations in C/C++, say, learning notes. And I noted down the first problem here. Use Circular Queue to solve Josephus problem.
 
 ## Problem:
