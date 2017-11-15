@@ -11,8 +11,8 @@ using namespace std;
 class work_area{
 private:
 	record array[8][SIZE];
-	int cur[8];   //ÄÄÒ»¸öÎ»ÖÃÒÑ¾­Ğ´ÈëÔªËØ
-	int has_read[8]; //ÄÄÒ»¸öÎ»ÖÃµÄÔªËØÒÑ¾­´¦Àí¹ı 
+	int cur[8];   //å“ªä¸€ä¸ªä½ç½®å·²ç»å†™å…¥å…ƒç´ 
+	int has_read[8]; //å“ªä¸€ä¸ªä½ç½®çš„å…ƒç´ å·²ç»å¤„ç†è¿‡ 
 public:
 	work_area(){
 		for(int i=0;i<8;i++){
@@ -34,7 +34,7 @@ public:
 	}
 	void show(){
 		for(int i=0;i<8;i++){
-			cout<<"µÚ"<<i<<"¸örun£¬cur="<<cur[i]<<",";
+			cout<<"ç¬¬"<<i<<"ä¸ªrunï¼Œcur="<<cur[i]<<",";
 			for(int j=0;j<cur[i];j++){
 				cout<<array[i][j].get_id()<<"  ";
 			} 
