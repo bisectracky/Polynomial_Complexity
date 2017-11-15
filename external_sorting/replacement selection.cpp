@@ -76,7 +76,7 @@ int main(){
 //	cout<<--count<<endl;
 	count--;
 /*	for(int i=1;i<=count;i++){
-		if(length[i]!=0)	cout<<"µÚ"<<i<<"ÌõrunµÄ³¤¶ÈÊÇ£º"<<length[i]<<endl; 
+		if(length[i]!=0)	cout<<"ÂµÃš"<<i<<"ÃŒÃµrunÂµÃ„Â³Â¤Â¶ÃˆÃŠÃ‡Â£Âº"<<length[i]<<endl; 
 	}*/ 
 	fr.close();
 	fw.close();
@@ -91,7 +91,7 @@ int main(){
 	fs<<"In this test, N= "<<N<<", SIZE= "<<SIZE<<endl;
 	fs<<"The number of runs is "<<count<<endl;
 	for(int i=1;i<=count;i++){
-		if(length[i]!=0)	fs<<"the length of the "<<i<<"th run is£º"<<length[i]<<endl; 
+		if(length[i]!=0)	fs<<"the length of the "<<i<<"th run isÂ£Âº"<<length[i]<<endl; 
 	} 
 	fs<<"The time taken to do the replacement selection is "<<(double)(finish - start) / CLOCKS_PER_SEC<<"s"<<endl;
 	ft.close();
