@@ -4,7 +4,7 @@
 ## Problem:
 People are standing in a circle waiting to be executed. Counting begins at a specified point in the circle and proceeds around the circle in a specified direction. After a specified number of people are skipped, the next person is executed. 
 The procedure is repeated with the remaining people, starting with the next person, going in the same direction and skipping the same number of people, until only one person remains, and is freed. 
-The problem given the number of people, starting point, direction, and number to be skipped is to choose the position in the initial circle to avoid execution.
+Given the amount of people, starting point, direction, and number to be skipped, determine the person's index in the initial circle who will avoid execution.
 In the following, **n** denotes the number of people in the initial circle, and **k** denotes the count for each step, that is, **k-1** people are skipped and the **k-th** is executed. The people in the circle are numbered from **1** to **n**.
 
 
