@@ -9,4 +9,4 @@ Figure 1, shows an example for a virtual keyboard. For such an input, we are giv
 
 (a) Write a pseudocode for an algorithm that finds the minimal number of strokes necessary to type the whole text, including the Enter key at the end of typing. It is guaranteed that the text can be typed.
 
-(b) Analyze the running time of your algorithm.
+(b) Analyze the running time of your algorithm. 
