@@ -66,7 +66,7 @@ void PreOrderTraversal(BinTree BT){
 
 
 
-//preorder_nonrecursion
+//postorder_nonrecursion
 void PreOrderTraversal(BinTree BT){
     BinTree T = BT;
     Stack S = CreatStack(MaxSize);
