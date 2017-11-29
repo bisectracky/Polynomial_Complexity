@@ -9,7 +9,7 @@ void Preorder(bnode_type* C){
 
 
 //inorder_recursion
-void Inorder(bnode_type* C){
+void InOrder(bnode_type* C){
     if(C){
         Preorder(C->lc);
         printf("%d", C->key);
@@ -19,7 +19,7 @@ void Inorder(bnode_type* C){
 
 
 //postorder_recursion
-void Postorder(bnode_type* C){
+void PostOrder(bnode_type* C){
     if(C){
         Preorder(C->lc);
         Preorder(C->rc);
@@ -48,7 +48,7 @@ void PreOrderTraversal(BinTree BT){
 
 
 //inorder_nonrecursion
-void PreOrderTraversal(BinTree BT){
+void InOrderTraversal(BinTree BT){
     BinTree T = BT;
     Stack S = CreatStack(MaxSize);
     while(T || !IsEmpty(S)){
@@ -67,7 +67,7 @@ void PreOrderTraversal(BinTree BT){
 
 
 //postorder_nonrecursion
-void PreOrderTraversal(BinTree BT){
+void PostOrderTraversal(BinTree BT){
     BinTree T = BT;
     Stack S = CreatStack(MaxSize);
     while(T || !IsEmpty(S)){
