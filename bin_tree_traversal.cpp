@@ -1,9 +1,9 @@
 //preorder_recursion
-void Preorder(bnode_type* C){
+void PreOrder(bnode_type* C){
     if(C){
         printf("%d", C->key);
-        Preorder(C->lc);
-        Preorder(C->rc);
+        PreOrder(C->lc);
+        PreOrder(C->rc);
     }
 }
 
@@ -11,9 +11,9 @@ void Preorder(bnode_type* C){
 //inorder_recursion
 void InOrder(bnode_type* C){
     if(C){
-        Preorder(C->lc);
+        InOrder(C->lc);
         printf("%d", C->key);
-        Preorder(C->rc);
+        InOrder(C->rc);
     }
 }
 
@@ -21,8 +21,8 @@ void InOrder(bnode_type* C){
 //postorder_recursion
 void PostOrder(bnode_type* C){
     if(C){
-        Preorder(C->lc);
-        Preorder(C->rc);
+        PostOrder(C->lc);
+        PostOrder(C->rc);
         printf("%d", C->key);
     }
 }
